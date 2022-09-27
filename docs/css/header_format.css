@@ -46,8 +46,12 @@
 	text-align: center;
 	font-size: 18px;
 	width: 35%;
-	margin: auto;
+	margin: 0 auto;
 	color: #ddd;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typewriter 3.5s steps(60, end),
+          blink-caret 0.75s step-end normal;
 	line-height: 1.7;
 }
 body {
@@ -140,5 +144,13 @@ body {
 	100% {
 		transform: translateY(-800px) scale(2);
 		opacity: 0;
+	}
+}
+@keyframes typewriter {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 50%;
 	}
 }

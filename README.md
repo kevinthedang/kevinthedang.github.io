@@ -1,3 +1,8 @@
+# Personal Site [![Deployment Badge](https://github.com/kevinthedang/kevinthedang.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/kevinthedang/kevinthedang.github.io/deployments) [![Release Badge](https://img.shields.io/github/v/release/kevinthedang/Space-Guardians?logo=github)](https://github.com/kevinthedang/kevinthedang.github.io/releases/latest) 
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

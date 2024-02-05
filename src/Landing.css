@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#footer {
+  position: relative;
+}
+
+#version {
+  position: fixed;
+  font-size: medium;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

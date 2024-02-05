@@ -1,27 +1,23 @@
-# React + TypeScript + Vite
+# Personal Site [![Deployment Badge](https://github.com/kevinthedang/kevinthedang.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/kevinthedang/kevinthedang.github.io/deployments) [![Release Badge](https://img.shields.io/github/v/release/kevinthedang/Space-Guardians?logo=github)](https://github.com/kevinthedang/kevinthedang.github.io/releases/latest) 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Running `gh-pages` Deployment
+* For the automated process, please refer to `.github/workflows/deploy.yml`
+* The manual way:
+   * If you do not care about deployment naming, just run `npm run deploy` in the root directory of your project.
+   * If you do care about deployment naming, consider writing a python script or just run `npm run deploy -- -m DEPLOY_MESSAGE`
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What do I use for development?
+* [React](https://react.dev/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Vite](https://vitejs.dev/)
+   * [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)
+   * [SWC](https://swc.rs/) for Fast Refresh (I believe only in development)
+* [gh-pages](https://www.npmjs.com/package/gh-pages)
 
-## Expanding the ESLint configuration
+## Resources
+* Where I found the [fonts](https://sabotagestudio.com/streamers/sea-of-stars/#fonts)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Acknowledgements
+* Massive inspiration from [Sharlene Yap](https://sharyap.com/)
+   * Check out her other work [here](https://www.youtube.com/@shar)! She's an animator!
